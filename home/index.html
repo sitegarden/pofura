@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>ホーム｜Pofura</title>
+  <meta
+    name="description"
+    content="Pofuraのホーム画面です。創作者の活動タイムラインやおすすめクリエイター、Gilchaを確認できます。"
+  />
+
+  <link rel="stylesheet" href="/assets/css/common.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="siteHeader"></div>
+
+  <main class="layout">
+    <aside class="sidebar left-sidebar">
+      <section class="panel my-card">
+        <div class="my-icon">Z</div>
+        <h2>ゼロ</h2>
+        <p>Web制作 / 創作 / 企画</p>
+
+        <div class="my-stats">
+          <div>
+            <strong>12</strong>
+            <span>作品</span>
+          </div>
+          <div>
+            <strong>4</strong>
+            <span>投稿</span>
+          </div>
+          <div>
+            <strong>2</strong>
+            <span>Gilcha</span>
+          </div>
+        </div>
+
+        <a href="/profile/" class="profile-link">プロフィールを見る</a>
+      </section>
+
+      <section class="panel menu-panel">
+        <h3>メニュー</h3>
+        <a href="/home/">活動タイムライン</a>
+        <a href="/post/">作品を投稿</a>
+        <a href="/post/">募集を出す</a>
+        <a href="/messages/">メッセージ</a>
+        <a href="/settings/">設定</a>
+      </section>
+    </aside>
+
+    <section class="main-area">
+      <section class="welcome-panel">
+        <div>
+          <p class="label">Home Timeline</p>
+          <h1>今日の創作、流してこ。</h1>
+          <p>
+            新作投稿、制作報告、募集、参加企画などをタイムラインに残せます。
+          </p>
+        </div>
+
+        <a href="/post/" class="big-post-btn">＋ 活動を投稿</a>
+      </section>
+
+      <section class="composer panel">
+        <div class="composer-icon">Z</div>
+
+        <div class="composer-body">
+          <textarea placeholder="今なに作ってる？"></textarea>
+
+          <div class="composer-actions">
+            <div class="tag-buttons">
+              <button type="button">作品</button>
+              <button type="button">募集</button>
+              <button type="button">報告</button>
+              <button type="button">雑談</button>
+            </div>
+
+            <button type="button" class="send-btn">投稿</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="timeline">
+        <article class="post-card">
+          <div class="post-head">
+            <div class="avatar pink">A</div>
+            <div>
+              <h2>あまね</h2>
+              <p>Illustrator ・ 10分前</p>
+            </div>
+          </div>
+
+          <p class="post-text">
+            新しいOCの立ち絵を公開しました。表情差分も増やしたので、FA資料として使いやすくなったはず。
+          </p>
+
+          <div class="post-work">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+
+          <div class="post-foot">
+            <span class="tag pink-tag">作品投稿</span>
+            <div class="reaction">
+              <button type="button">♡ 24</button>
+              <button type="button">💬 5</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="post-card">
+          <div class="post-head">
+            <div class="avatar blue">R</div>
+            <div>
+              <h2>りお</h2>
+              <p>Vocal ・ 32分前</p>
+            </div>
+          </div>
+
+          <p class="post-text">
+            歌ってみた企画をやります。イラスト担当さん、動画担当さん、MIX担当さんをゆるく募集しています。
+          </p>
+
+          <div class="recruit-box">
+            <strong>募集内容</strong>
+            <p>イラスト / 動画 / MIX / デザイン</p>
+          </div>
+
+          <div class="post-foot">
+            <span class="tag purple-tag">メンバー募集</span>
+            <div class="reaction">
+              <button type="button">♡ 18</button>
+              <button type="button">💬 8</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="post-card">
+          <div class="post-head">
+            <div class="avatar purple">M</div>
+            <div>
+              <h2>ましろ</h2>
+              <p>Designer ・ 1時間前</p>
+            </div>
+          </div>
+
+          <p class="post-text">
+            ロゴデザインのサンプルを追加しました。今回はわたあめっぽい淡色だけど、文字は読みやすめにしています。
+          </p>
+
+          <div class="post-foot">
+            <span class="tag blue-tag">制作報告</span>
+            <div class="reaction">
+              <button type="button">♡ 31</button>
+              <button type="button">💬 3</button>
+            </div>
+          </div>
+        </article>
+      </section>
+    </section>
+
+    <aside class="sidebar right-sidebar">
+      <section class="panel search-panel">
+        <h3>探す</h3>
+        <input type="text" placeholder="クリエイター・作品を検索" />
+      </section>
+
+      <section class="panel recommend-panel">
+        <h3>おすすめクリエイター</h3>
+
+        <div class="mini-user">
+          <div class="avatar pink">N</div>
+          <div>
+            <strong>のあ</strong>
+            <p>Illustration</p>
+          </div>
+          <button type="button">見る</button>
+        </div>
+
+        <div class="mini-user">
+          <div class="avatar blue">S</div>
+          <div>
+            <strong>そら</strong>
+            <p>Vocal / MIX</p>
+          </div>
+          <button type="button">見る</button>
+        </div>
+
+        <div class="mini-user">
+          <div class="avatar purple">K</div>
+          <div>
+            <strong>くるみ</strong>
+            <p>Design</p>
+          </div>
+          <button type="button">見る</button>
+        </div>
+      </section>
+
+      <section class="panel guild-panel">
+        <h3>おすすめGilcha</h3>
+
+        <div class="guild-card">
+          <div class="guild-icon">G</div>
+          <div>
+            <strong>ゆるクリエイト部</strong>
+            <p>作品投稿と企画募集をゆるく楽しむギルド。</p>
+          </div>
+        </div>
+
+        <div class="guild-card">
+          <div class="guild-icon blue-icon">C</div>
+          <div>
+            <strong>歌みた準備室</strong>
+            <p>歌・MIX・絵・動画の仲間探し用。</p>
+          </div>
+        </div>
+      </section>
+    </aside>
+  </main>
+
+  <div id="siteFooter"></div>
+
+  <script src="/assets/js/layout.js"></script>
+</body>
+</html>
