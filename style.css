@@ -579,3 +579,23 @@ img {
     padding: 22px;
   }
 }
+
+.member-tag {
+  display: inline-block;
+  margin: 0 0 10px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #eef6ff;
+  color: #5d7fd6;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+}
+
+.member-copy {
+  margin: 0 0 12px !important;
+  color: #354b86 !important;
+  font-size: 15px;
+  font-weight: 900 !important;
+  line-height: 1.7 !important;
+}
